@@ -12,12 +12,9 @@ while True:
         mysock.send(mail.encode())
         break
     mysock.send(mail.encode())
-    #data = mysock.recv(512)
-    #print(data.decode())
 
     #deuxieme tour
 
-    # input("appuyez sur entrée pour recevoir")
     print ("En attente du message du serveur...")
     data = mysock.recv(512)
     if data.decode() == "exit":
