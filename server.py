@@ -20,10 +20,7 @@ while True:
             break
         print ("\033[A                                                       \033[1;31m\033[A")
         print(data.decode(),end='\033[0m\n')
-
-        #data = mysock.recv(512)
-        #print(data.decode())
-
+        
         #deuxieme tour
 
         mail = input("entrez le message :")
@@ -35,13 +32,5 @@ while True:
     clientsocket.close()
     if input("exit?") == "y":
         break
-
-    # what follows in ancient code
-
-    # data = clientsocket.recv(512)
-    # clientsocket.send("data RECEIVED".encode())
-    # if len(data) < 1:
-    #     break
-    # print(data.decode(),end='')
 
 mysock.close()
