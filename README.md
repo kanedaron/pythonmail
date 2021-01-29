@@ -6,9 +6,9 @@ A python unencrypted TCP socket-based peer-to-peer messenger.
 
 Very simple
 
-On the server 
+###On the server 
 1. Set up an allow firewall rule for inbound TCP port 8500
 2. Start server.py script
 
-On the client
+###On the client
 1. Start client.py script
