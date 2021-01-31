@@ -1,5 +1,7 @@
 # pythonmail
 
+only for python3+
+
 A python unencrypted TCP socket-based peer-to-peer messenger.
 
 ## How to use
