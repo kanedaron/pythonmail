@@ -1,7 +1,8 @@
 import socket
+import os
 
 mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-mysock.connect(('130.211.109.14', 8500))
+mysock.connect((os.environ['SERVER_IP'], 8500))
 
 print("=== Connecté au serveur ===")
 print("Envoyez le message 'exit' pour terminer le programme\n")
