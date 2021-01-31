@@ -13,4 +13,5 @@ Very simple
 2. Start server.py script
 
 ### On the client
-1. Start client.py script
+1. Put the server ip address in the environment variable SERVER_IP
+2. Start client.py script
